@@ -192,6 +192,7 @@ html *{
 .u-l li{
     margin: 10px 0 10px 0;
     padding: 3px;
+    coldor: #000;
 }
 .tag-line{
     padding: 3px;

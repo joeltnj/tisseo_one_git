@@ -192,7 +192,6 @@ html *{
 .u-l li{
     margin: 10px 0 10px 0;
     padding: 3px;
-    uborder: 1px solid #000;
 }
 .tag-line{
     padding: 3px;
@@ -201,7 +200,6 @@ html *{
 .name-line{
     padding: 3px;
     color: rgb(43, 38, 38);
-    backghround: rgb(186, 20, 219);
     
 }
 /*******au clik**********/

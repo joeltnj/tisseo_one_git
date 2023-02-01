@@ -1,0 +1,243 @@
+
+*{
+    border: 1px solid rgb(231, 219, 219)
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+
+}
+
+body {
+    height: 100%;
+    margin: 2% 14% 0 14%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: rgb(250, 227, 18);
+    height: 100px;
+}
+.section{
+    background: rgb(120, 129, 141);
+    flex: 1 0 auto;
+}
+.footer{
+    background: rgb(92, 72, 72);
+    height: 100px;
+}
+/*
+html *{
+    border: 1px solid rgb(255, 91, 91);
+    color: rgb(166, 177, 187);
+}
+*/
+
+/*****wrapper line*******/
+.row-horaire{
+    background: rgb(54, 54, 54);
+    height: 50px;
+}
+.row-horaire ul{
+    display: flex;
+    justify-content:center;
+}
+.row-horaire ul li{
+    border: 1px solid rgb(173, 168, 168);
+    margin: 10px;
+    padding: 5px 20px;
+    background: rgb(176, 247, 235);
+    border-radius: 3px;
+}
+/********wrapper line*********/
+.wrapper-line{
+    background: rgb(211, 211, 211);
+    mheight: 100px;
+}
+.stop-title{
+    height: 50px;
+    bordler: 1px solid #000;
+}
+.stop-title p{
+    color: bisque;
+    text-align: center;
+    font-weight: bolder;
+}
+/****ici**************/
+.u-l li{
+    width: 300px;
+    background: rgb(185, 182, 185);
+    border-radius: 1px;
+}
+.ul-line{
+    columns: 3;
+}
+
+/*********ul-line-and-stop***********/
+.ul-line-and-stop{
+    width: 40%;
+    columns: 1;
+}
+.wrapper-line-and-stop{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-line-and-stop *{
+    lborder: 1px solid #000;
+}
+/*ces 2 cidesous vont ensemble*/
+.l-s{
+    display: none;
+}
+.line-stop{
+    display: block;
+    width: 60%;
+    position: relative;
+    background: rgb(134, 132, 136);
+    list-style: none;
+    col4umns: 2;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.line-stop ul{
+    bacmkground: #000;
+    margin-left: 80px;
+    
+    text-lalign: center;
+}
+.s-h{
+    display: none;
+}
+.stop-hours{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    rigmht: 200px;
+    hei5ght: 300px;
+    width: 360px;
+    background: rgb(219, 191, 191);
+    texts-align: center;
+
+
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 3px;
+    backgnround: rgb(76, 230, 250);
+    margikn: 0 auto;
+    collumns: 2;
+    border-radius: 10px;
+    
+
+
+}
+.stop-hours li{
+    border: 1px solid #000;
+    margin: 10px;
+    lmargin-left: 30px;
+    padding: 3px;
+    background: rgb(76, 230, 250);
+    width: 200px;
+    text-align: center;
+    mmargin: 0 auto;
+    border-radius: 2px;
+}
+.stop-hours li:first-child{
+    margin-top: 50px;
+}
+/******reset-hours*******/
+
+.reset-stop{
+    position: absolute;
+    top: 5px;
+
+    right: 5px;
+    background: rgb(245, 63, 63);
+    color: #000;
+    padding: 2px 5px;
+}
+.r-h{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgb(245, 63, 63);
+    color: #000;
+    padding: 2px 5px;
+}
+
+
+/********after 1st cloick*********/
+.ul-line-after{
+    columns: 1;
+}
+.line-stop ul > li{
+    border: 1px solid rgb(87, 84, 84);
+    margin: 10px;
+    padding: 3px;
+    background: rgb(163, 208, 214);
+    width: 200px;
+}
+/********formating text*********/
+.u-l{
+    bormder: 1px solid #000;
+}
+.u-l li{
+    margin: 10px 0 10px 0;
+    padding: 3px;
+    uborder: 1px solid #000;
+}
+.tag-line{
+    padding: 3px;
+    background: rgb(235, 159, 19);
+}
+.name-line{
+    padding: 3px;
+    color: rgb(43, 38, 38);
+    backghround: rgb(186, 20, 219);
+    
+}
+/*******au clik**********/
+
+a{
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+}
+#bus:hover{
+    background-color:rgb(252, 235, 0)
+}
+#bus:active{
+    background-color:rgb(0, 255, 21)
+}
+.u-l li:hover{
+    background: rgb(252, 235, 0)git status;
+}
+
+.ul-line-after li:hover{
+    background-color:rgb(252, 235, 0) ;
+
+}
+.tkag-line:hover{
+    background-color:rgb(252, 235, 0) ;
+
+}
+.ul-line-after li:active{
+    background-color: rgb(0, 255, 21);
+
+}
+.line-stop li:hover{
+    background-color:rgb(252, 235, 0) ;
+
+}
+.line-stop li:active{
+    background-color: rgb(0, 255, 21);
+
+}

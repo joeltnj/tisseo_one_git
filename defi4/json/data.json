@@ -1,0 +1,152 @@
+{
+    "Usage numerique": {
+        "un an d'emails 1Mo 3min 1 destinataire wifi": 2.5,
+        "un an de visioconference sd wifi 1h 2participant": 0.057,
+        "un an de streaming hd wifi 1h": 0.064,
+        "construction d'un smartphone": 0.53371,
+        "construction d'une tablette": 7.45,
+        "construction d'un ordinateur portable": 27.54,
+        "construction d'une television": 62.16,
+        "constructon d'un ordinateur fixe": 50.67
+    },
+    "chauffage": {
+        "chauffage_electrique": {
+            "caracteristique": "par m2 et par année ",
+            "app": 3.7,
+            "maison": 6
+        },
+        "chauffage_au_gaz": {
+            "caracteristique": "par m2 et par année ",
+            "app": 28,
+            "maison": 38
+        },
+        "chauffage_au_fioul": {
+            "caracteristique": "par m2 et par année ",
+            "app": 50,
+            "maison": 53
+        }
+    },
+    "transport": {
+        "velo": 0,
+        "tgv": 0.002,
+        "tramway": 0.003,
+        "metro": 0.003,
+        "intercite": 0.006,
+        "rer": 0.007,
+        "velo electrique": 0.01,
+        "trottinette electrique": 0.01,
+        "bus electrique": 0.02,
+        "autocar": 0.03,
+        "ter": 0.03,
+        "scooter": 0.08,
+        "voiture": 0.1,
+        "bus thermique": 0.1,
+        "bus gnv": 0.1,
+        "moto": 0.2,
+        "voiture thermlique": 0.2,
+        "avion court courier": 0.2
+    },
+    "fruit et legumes": {
+        "ananas": 1.2,
+        "asperge": 1.4,
+        "avocat": 2.8,
+        "banane": 1.9,
+        "champignon de paris": 0.4,
+        "cresson": 0.8,
+        "endvie": 0.8,
+        "epinard": 0.3,
+        "fenouil": 1,
+        "fruit de passion": 0.9,
+        "mangue": 15,
+        "navet": 0.4,
+        "oignon": 0.4,
+        "pamplemousse": 0.6,
+        "poireau": 0.7,
+        "pomme": 0.3,
+        "radis": 0.3,
+        "rhubarbe": 0.7
+    },
+    "numerique": {
+        "enceinte bluetooth": 1.12,
+        "montre connectee": 0.119,
+        "appareil photo comapact": 0.119,
+        "appareil photo reflex": 0.304,
+        "smartphone >5.5p": 0.533,
+        "console portable": 0.967,
+        "liseuse non retro-eclaire": 0.1869,
+        "tablette mini": 7.45,
+        "cadre phot digital": 0.1869,
+        "barre de son": 9.97,
+        "tablette classique": 7.45,
+        "tablette detachable": 7.45,
+        "imprimante jet d'encre": 21.46,
+        "console de salon": 31.28,
+        "chaine hifi": 23.33,
+        "moden fibre": 67.01,
+        "ordinateur portable": 27.54,
+        "home cinema": 32.03,
+        "ordinateur fixe de bureau": 30.21,
+        "ecran 24 pouces": 20.46,
+        "television 40 - 49 pouces": 62.16,
+        "ordinateur fixe performance": 119.50,
+        "ordinateur fixe avec ecran": 50.57
+    },
+    "repas": {
+        "vegatarien": 5,
+        "poisson gras": 1.1,
+        "poulet": 1.6,
+        "poisson blanc": 2,
+        "boeuf": 7
+    },
+    "habillement": {
+        "t-shirt en polyester": 0.539,
+        "t-shirt en coton": 0.983,
+        "polo": 1.42,
+        "chemise en viscose": 1.48,
+        " pull en coton recycle": 3.58,
+        "chemise en coton": 1.57,
+        "paire de chaussures en cuire": 0,
+        "paire de chaussures en tissu": 0,
+        "paire de chaussures de sport": 0,
+        "jean": 1.25,
+        "veste simili-cuir": 1.94,
+        "pull en acrylique": 2.46,
+        "sweat en coton": 3.58,
+        "veste impermeable": 1.80,
+        "robe en viscose": 5.19,
+        "robe en coton": 5.81,
+        "pull en laine": 2.52,
+        "robe en polyester": 4.82,
+        "menteau": 13.22
+    },
+    "mobilier": {
+        "chaise": 19,
+        "table": 80,
+        "canape": 179,
+        "lit": 444,
+        "armoire": 907
+    },
+    "electromenager": {
+        "bouilloire": 31.64,
+        "aspirateur": 47,
+        "cafetiere filtre": 135.92,
+        "cafetiere expresso": 140.24,
+        "cafetiere adosettes": 88.9,
+        "four electrique": 75.57,
+        "refrigerateur": 88.32,
+        "climatisateur": 109.56,
+        "lave- vaisselle": 219.44,
+        "lave-linge 7g": 216.93
+    },
+    "boisson": {
+        "eau du robinet": 0.0001,
+        "the": 0.05,
+        "lait de soja": 0.4,
+        "eau en bouteille": 0.5,
+        "cafe": 0.6,
+        "soda": 0.6,
+        "biere": 1.1,
+        "vin": 1.1,
+        "lait de vache": 1.5
+    }
+}
